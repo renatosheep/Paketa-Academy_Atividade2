@@ -1,0 +1,59 @@
+.c-main {
+    width: 550px;
+    align-items: center;
+    text-align: center;
+    margin: 40px auto;
+    margin-bottom: 100px;
+}
+
+.c-main__img {
+    max-width: 550px;
+}
+
+.c-main-flex {
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px
+}
+
+.c-main-flex__align {
+    width: 350px;
+    justify-content: center;
+}
+
+.c-main-flex-logos {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+    flex: 1;
+    margin: 50px 100px;
+}
+
+.btn {
+    padding: 15px 45px;
+    border: none;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 50px;
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    margin: 25px 15px;
+}
+
+.btn__iOS{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 4px hsl(171, 68%, 36%);
+}
+
+.btn__MAC{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 4px hsl(233, 71%, 61%);
+}
+
+
+
+
