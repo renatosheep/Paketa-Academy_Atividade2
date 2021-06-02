@@ -6,23 +6,40 @@
     margin-bottom: 100px;
 }
 
-.c-main-computer {
+.c-main-computer{
     display: flex;
-    width: 700px;
+    align-items: center;
+}
+
+.c-main--img {
+    margin: -30px;
+}
+
+
+.c-main__computer {
+    flex: 1;
+    padding-bottom: 80px;
+}
+
+.c-main__text {
+    margin: 0 auto;
+    max-width: 350px;
+
+}
+
+.h--text {
+    text-align: justify;
+    margin-bottom: 20px;
+
+}
+
+.p--text {
+    text-align: justify;
+    margin-bottom: 40px;
 }
 
 .c-main__img {
-    width: 700px;
-}
-
-.c-main--img{
-    max-width: auto;
-    margin: -50px;
-}
-
-
-.c-main__img {
-    max-width: 550px;
+    width: auto;
 }
 
 .c-main-flex {
@@ -69,6 +86,14 @@
     background-color: hsl(233, 100%, 69%);
     box-shadow: 0 4px hsl(233, 71%, 61%);
     cursor: pointer;
+}
+
+.btn__iOS:hover {
+    background-color: hsl(171, 61%, 35%);
+}
+
+.btn__MAC:hover {
+    background-color: hsl(233, 95%, 60%);
 }
 
 

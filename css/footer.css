@@ -1,6 +1,5 @@
 .c-footer {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;  
     background-color: hsl(206, 12%, 73%);
     margin: 0 auto;
@@ -9,8 +8,10 @@
 
 .c-footer__collum {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     flex: 1 2 auto;
+    align-items: center;
 }
 
 .c-footer__img {
@@ -19,8 +20,9 @@
 }
 
 .c-footer__contact {
-    display: inline-block;
-    min-width: 100px;   
+    display: flex;
+    direction: column;
+    min-width: 50px;
     align-items: baseline;
     margin: 30px;
 }

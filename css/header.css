@@ -9,6 +9,7 @@
     line-height: 2rem;
     text-decoration: none;
     list-style: none;
+    max-width: 1440px;
 }
 
 header {
