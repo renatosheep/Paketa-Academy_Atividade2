@@ -14,8 +14,9 @@
 
 .c-footer__contact {
     display: flex;
+    flex-wrap: wrap;
     flex: 1;    
-    align-items: center;
+    align-items: baseline;
     max-width: 600px;  
     margin: 30px;
 }
@@ -40,8 +41,7 @@
 
 .c-footer--a:hover {
     color: hsl(171, 68%, 36%);
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 a {

@@ -8,26 +8,32 @@
 
     <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">  
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap">
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
 
 </head>
 
 <body>
     
     <header>
-        <div class="container container-small">
+        <div>
             <img src="imagens/logo.svg" alt="">
-            <h1>A history of everything you copy</h1>
-            <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
-            <div>
-                <button class="btn btn__iOS">Download for iOS</button>
-                <button class="btn btn__MAC">Download for Mac</button>
-            </div>
         </div>
     </header>   
 
     <main>
-        <section class="container container-small">
+        
+        <section class="c-main">
+            <div>
+                <h1>A history of everything you copy</h1>
+                <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+                    <button class="btn btn__iOS">Download for iOS</button>
+                    <button class="btn btn__MAC">Download for Mac</button>
+            </div>
+        </section>
+
+        <section class="c-main">
             <h2>Keep track of your snippets</h2>
             <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>                
         </section>
@@ -50,37 +56,37 @@
             </div>
         </section>
 
-        <section class="container container-small">
+        <section class="c-main">
             <h2>Access Clipboard anywhere</h2>
             <p>Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
-            <img src="imagens/image-devices.png" alt="Image Devices">   
+            <img class="c-main__img" src="imagens/image-devices.png" alt="Image Devices">   
         </section>
 
-        <section class="container">
+        <section class="c-main">
             <h2>Supercharge your workflow</h2>
             <p>We’ve got the tools to boost your productivity.</p>    
         </section>
 
-        <section class="container flex">
-            <div>
+        <section class="c-main-flex">
+            <div class="c-main-flex__align">
                 <img src="imagens/icon-blacklist.svg" alt="Icon Blacklist">
                 <h3>Create blacklists</h3>
                 <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
             </div>
-            <div>
+            <div class="c-main-flex__align">
                 <img src="imagens/icon-text.svg" alt="Icon Text">
                 <h3>Plain text snippets</h3>
                 <p>Remove unwanted formatting from copied text for a consistent look.</p>
             </div>
-            <div>
+            <div class="c-main-flex__align">
                 <img src="imagens/icon-preview.svg" alt="Icon Preview">
                 <h3>Sneak preview</h3>
                 <p>Quick preview of all snippets on your Clipboard for easy access.</p>
             </div>        
         </section>
 
-        <section class="container flex">
-            <div class="flex">
+        <section class="c-main-flex">
+            <div class="c-main-flex-logos">
                 <img src="imagens/logo-google.png" alt="Image Google">
                 <img src="imagens/logo-ibm.png" alt="Image IBM">
                 <img src="imagens/logo-microsoft.png" alt="Image Microsoft">
@@ -89,7 +95,7 @@
             </div> 
         </section>
 
-        <section class="container container-small">
+        <section class="c-main">
             <h2>Clipboard for iOS and Mac OS</h2>
             <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
             <button class="btn btn__iOS">Download for iOS</button>
@@ -98,22 +104,27 @@
     </main>
 
     <footer>
-        <div class="container flex">
+
+        <div class="c-footer">
             <div>
-                <img src="imagens/logo.svg" alt="logo">
+               <a href="#"><img class="c-footer__img" src="imagens/logo.svg" alt="logo"></a> 
+            </div>
+            <div>
+                <ul class="c-footer__contact">
+                    <li><a class="c-footer--a" href="#">FAQs</a></li>
+                    <li><a class="c-footer--a" href="#">Contact Us</a></li>
+                    <li><a class="c-footer--a" href="#">Privacy Policy</a></li>
+                    <li><a class="c-footer--a" href="#">Press Kit</a></li>
+                    <li><a class="c-footer--a" href="#">Install Guide</a></li>
+                </ul>
             </div>            
-        <ul class="contact">
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Press Kit</a></li>
-            <li><a href="#">Install Guide</a></li>
-        </ul>
-        <ul class="fan page">
-            <il><img src="imagens/icon-facebook.svg" alt="Icone Facebook"></il>
-            <il><img src="imagens/icon-twitter.svg" alt="Icone Twitter"></il>
-            <il><img src="imagens/icon-instagram.svg" alt="Icone Instagram"></il>
-        </ul> 
+        <div>       
+            <ul>
+                <il class="c-footer--list2"><img class="c-footer--icon" src="imagens/icon-facebook.svg" alt="Icone Facebook"></il>
+                <il class="c-footer--list2"><img class="c-footer--icon" src="imagens/icon-twitter.svg" alt="Icone Twitter"></il>
+                <il class="c-footer--list2"><img class="c-footer--icon" src="imagens/icon-instagram.svg" alt="Icone Instagram"></il>
+            </ul>
+        </div> 
         </div>    
     </footer>
 </body>
