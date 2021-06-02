@@ -7,17 +7,21 @@
 
 }
 
+.c-footer__collum {
+    display: flex;
+    justify-content: center;
+    flex: 1 2 auto;
+}
+
 .c-footer__img {
     max-width: 100px;
     margin: 25px 25px;
 }
 
 .c-footer__contact {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;    
+    display: inline-block;
+    min-width: 100px;   
     align-items: baseline;
-    max-width: 600px;  
     margin: 30px;
 }
 
@@ -30,18 +34,19 @@
 
 .c-footer--list {
     display: inline-block;
-    min-width: 100px;
     margin: 5px 25px; 
 }
 
 .c-footer--list2 {
     display: inline-block;
-    min-width: 50px;
+    min-width: 50px;  
+    text-decoration: none; 
 }
 
 .c-footer--a:hover {
     color: hsl(171, 68%, 36%);
     text-decoration: none;    
+    cursor: pointer;
 }
 
 a {
@@ -50,5 +55,6 @@ a {
 
 .c-footer--icon:hover {
     filter: invert(45%) sepia(100%) saturate(152%) hue-rotate(90deg) brightness(100%) contrast(90%);
+    cursor: pointer;
 }
 

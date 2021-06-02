@@ -6,6 +6,21 @@
     margin-bottom: 100px;
 }
 
+.c-main-computer {
+    display: flex;
+    width: 700px;
+}
+
+.c-main__img {
+    width: 700px;
+}
+
+.c-main--img{
+    max-width: auto;
+    margin: -50px;
+}
+
+
 .c-main__img {
     max-width: 550px;
 }
@@ -47,11 +62,13 @@
 .btn__iOS{
     background-color: hsl(171, 66%, 44%);
     box-shadow: 0 4px hsl(171, 68%, 36%);
+    cursor: pointer;
 }
 
 .btn__MAC{
     background-color: hsl(233, 100%, 69%);
     box-shadow: 0 4px hsl(233, 71%, 61%);
+    cursor: pointer;
 }
 
 
